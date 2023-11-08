@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.header{
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    padding: 12px;
+}
+
+.header-search{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.search-bar{
+    display: flex;
+    height: 60px;
+    padding: 12px;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-bar input{
+    width: 600px;
+    height: 20px;
+    border-radius: 100px;
+}
+
+.profil{
+    display: flex;
+    gap: 28px;
+    justify-content: right;
+    padding: 12px;
+    padding-right: 48px;
+}
+
+.left-bottom img{
+    width: 65px;
+    margin-top: -14px;
+}
+.bell-icon img{
+    width: 25px;
+}
+
+.search-bar img{
+    width: 25px;
+}
+
+.bell-icon{
+    display: flex;
+}
+
+.teemo-icon{
+    display: flex;
+}
+.teemo-icon img{
+    width: 55px;
+}
+
+.bottom-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    align-items: center;
+}
+
+.left-bottom{
+    display: flex;
+    gap: 12px;
+    justify-content: space-evenly;
+}
+
+.right-bottom{
+    display: flex;
+    gap: 36px;
+    padding-right: 48px;
+}
+
+.right-bottom > button{
+    background-color: dodgerblue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 100px;
+    width: 100px;
+    height: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.greeting{
+    font-size: 12px;
+}
+
+.name{
+    font-size: 24px;
+}
+
+.leftside{
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    background-color: dodgerblue;
+    padding: 10px;
+    display: grid;
+    grid-column: 1fr;
+    grid-template-rows: auto auto 1fr;
+}
+
+.left-title{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+}
+.left-title h2{
+    color: white;
+}
+.left-title > img{
+    width: 50px;
+    filter: invert(100);
+}
+
+.left-buttons{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 12px;
+    gap: 12px;
+    padding-top: 24px;
+}
+
+.btns{
+    height: 50px;
+    text-align: left;
+    background-color: transparent;
+    border: 0px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 14px;
+}
+
+.setting-buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+.main-title{
+    padding: 12px;
+    margin-left: 24px;
+    margin-top: 12px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.article{
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 30px 20px 40px 20px;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 2fr 2fr;    
+}
+
+.article .card {
+    color: black;
+    text-align: left;
+    width: 90%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 16px;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    background-image: -webkit-linear-gradient(left, #88c7ff, #88c7ff 2%, transparent 2%, transparent 100%);
+  }
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article p {
+    margin-left: 12px;
+}
+.article-icons > img{
+    width: 25px;
+  }
+
+  .article-icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+
+  .title{
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+.rightside{
+    grid-column: 3 / 4;
+    width: 200px;
+    padding: 24px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 36px;
+}
+
+.rightside .card {
+    color: black;
+    text-align: left;
+    width: 90%;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    padding: 16px;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+  }
+
+
+.trend-title{
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.trend-shit{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: whitesmoke;
+    padding: 24px;
+    font-size: 18px;
+    font-style: italic;
+    border-radius: 25px;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+}
+
+.button-profile{
+    display: flex;
+}
+.img-profile{
+    width: 30px;
+    margin-right: -10px;
+    margin-left: 25px;
+    text-align: center;
+    filter: invert(100);
+}
+#message img{
+    transform: scaleX(-1);
+    height: 28px;
+}
